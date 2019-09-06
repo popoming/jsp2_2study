@@ -1,0 +1,29 @@
+<object class="org.apache.commons.dbcp.PoolableConnectionFactory"
+	xmlns="http://apache.org/xml/xmlns/jakarta/commons/jocl">
+	
+	<object class="org.apache.commons.dbcp.DriverManagerConnectionFactory">
+		<string value="jdbc:mysql://localhost:3306/chap12?serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=euckr" />
+		<string value="jspexam" />
+		<string value="jspex" />
+	</object>
+	
+	<object class="org.apache.commons.poo.impl.GenericObjectPool">
+		<object class="org.apache.commons.pool.PoolableObjecctFactory" null="true" />
+		<int value="10" /> <!-- maxActive -->
+		<byte value="1" /> <!-- wenExhaustedAction -->
+		<long value="10000" /> <!-- maxWait -->
+		<int value="10" /> <!-- maxIdle -->
+		<int value="3" /> <!-- minIdle -->
+		<boolean value="true" /> <!-- testOnBorrow -->
+		<boolean value="true" /> <!-- estOnReturn -->
+		<long value="600000" <!-- timeBetweenEvctionRunMillis -->
+		<int value="5" /> <!-- numTestPerEvictionRun -->
+		<long value="3600000" /> <!-- minEvictableIdleTimeMillis -->
+		<boolean value="true" /> <!-- testWhileIdle -->
+	</object>
+	
+	<object class="org.apache.commons.pool.impl.GenericKeyedObjectPoolFactory" null="true" />
+	
+	<string null="true" />
+	<boolean value="false" />
+	<boolean value="true" />

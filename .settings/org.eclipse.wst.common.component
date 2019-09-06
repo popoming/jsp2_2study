@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jsp2_2study">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap02/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap04/WEB-INF/classes"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap09/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap09/WEB-INF/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap11/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap12/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap13/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap14/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap15/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap16/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap17/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap20/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap21/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap22/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap23/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/chap24/src"/>
+        <property name="context-root" value="jsp2_2study"/>
+        <property name="java-output-path" value="/jsp2_2study/chap02/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
